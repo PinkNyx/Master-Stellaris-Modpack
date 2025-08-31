@@ -1,0 +1,99 @@
+# Version 1.1.1
+
+### Bugfixes
+- Fixed **oxr_mdlc_can_colonize_planet.wm_is_rebooting** colonization bug by temporarily removing [[Expanded Mods Base]] & [[Expanded Espionage and Diplomacy]]
+- Colossus Casus Belli should work properly now
+- Fixed a ton of various conflicts & Localization errors
+- Spiritualist Ethic should now properly function with **Ethics & Civics: Bug Branch**
+- Academic Dig Site Expert Level 3 will now properly show up in Leader Traits
+- Archaeologist Level 2 will now properly show up in Leader Traits
+- Assembler Level 3 will now properly show up in Leader traits and has been properly balanced
+- Carefree Level 2 will now properly show up in Leader traits and has been properly balanced
+- Cartographer Level 3 will now properly show up in Leader traits and has been properly balanced
+- Wet Planet Preference now properly includes Planetary Diversity Planets
+- The Space Miner trait should now show up in Leader Traits
+- The Investor Traits should now show up in Leader Traits
+- The Home in the Sky Trait should now show up in Leader Traits
+- The Frontier Spirit Trait should now show up in Leader Traits
+- Removed a useless "}" in tyranid_room_textures.txt
+### Balance Changes
+- Juggernaut Ship base limit raised to `128`
+- Category Vote Cooldown lowered to `750 Days`
+- Default Max Planet Buildings Per Zone lowered to `8` from `10`
+- Make Rival no longer notifies all empires
+- Made Colonizer Designable
+- Made Guided Sapience Colonizer Designable
+- Made Lithoid Colonizer Designable
+- Made Science Ship Designable
+- Made Sponsored Colonizer Designable
+- Changed Juggernaut starbase_shipyard_capacity_add to `15` from `6`
+- Made minor changes to the Small Military Station by changing it's Fleet Slot Size to `2` from `1` and making its Combat Size Multiplier `2`
+- Made minor changes to Citizenship Purge
+- Added `fanatic elitist` and `elitist` from **Ethics & Civics: Bug Branch** to Citizenship Slavery
+- Increased the energy cost for Education Campaign to `15`
+- Increased the energy cost for Recycling Campaign to `15`
+- Made a slight change to the Cheat Menu Edict by making it cost `50` influence to use
+- Made a slight change to the IG Options Menu Edict
+- Made slight changes to the More Events Mod Options Menu
+- Fanatic Xenophobe now has a `-30%` to Tradition Cost from Empire Size and a `33%` increase to Diplomacy Upkeep
+- Gestalt Consciousness requires the Biogenesis DLC
+- Gestalt Consciousness is reduced to `2 Civic Points cost`
+- Materialists now get a `7%` increase to their Physics and Engineering Tech Research Speed
+- Added `Bugged Machine Cult` checks to Materialist modifiers
+- Militarists now get a `15%` decrease to Claim Influence Cost
+- Militarists get a `10%` increase to the Command Limit
+- Pacifists get a `20%` decrease to Border Friction
+- Pacifists get a `20%` increase to Home Territory Fire Rate
+- Xenophiles get a `25%` increase to Trust Growth and a `15%` increase to Trade Attractiveness
+- Xenophiles get a `15%` decrease to Diplomacy Upkeep
+- Xenophobes now have a `15%` decrease to Tradition Cost from Empire Size
+- Fanatic Xenophiles have a `50%` increase to Trust Growth, a `30%` increase to Trade Attractiveness, 2 Additional Envoys, and 1 less Max Rivalry
+- Fanatic Xenophiles have a `30%` decrease to Diplomacy Upkeep
+- Fanatic Pacifists get `+10` to Planet Stability, a `40%` increase to Home Territory Fire Rate, and a `40%` Country Border Friction decrease
+- Fanatic Pacifists get a `10%` decrease to Naval Cap
+- Fanatic Militarists get a `20%` increase to Command Limit, a `50%` decrease to Trust Growth, and a `30%` decrease to Claim Influence Cost
+- Fanatic Materialists get a `15%` increase to Physics and Engineering Tech Research Speed and a `10%` decrease to Population Happiness
+- Fanatic Egalitarians get a `50%` increase to Faction Output, a `20%` increase to Ethics Shift Speed, and `-5` to Planet Stability
+- Fanatic Egalitarians produce `0.066` Entertainer Jobs per Pop or `6` Entertainer Jobs per 100 Pops
+- Fanatic Authoritarians should now produce more Enforcer Jobs
+- Fanatic Authoritarians get `+1.5` Influence per month
+- Fanatic Authoritarians produce `6` Entertainer Jobs per 100 Pops
+- Fanatic Authoritarians produce `1` Unity per 100 Enforcers
+- Egalitarians produce `3` Entertainer Jobs per 100 Pops and get a `10%` increase to Ethics Shift Speed
+- Authoritarians produce `3` Enforcer Jobs per 100 Pops and get `0.75` Influence per month
+- Added `BPV_ZONE_SLOT` to several Zones 
+- Ships in Particle Storms now produce `0.5` Unity
+### UI Changes
+- Changed planet_job_entry and planet_view to hopefully better fit the additional buildings & zones
+- Made minor changes to paragon_portrait_contianer_sector_governor
+- Switched planet_army_entry to the **UI Overhaul Dynamic**
+- Switched planet_automation_settings_entry to the **UI Overhaul Dynamic**
+- Switched planet_zone_construction_entry to the **UI Overhaul Dynamic**
+- Changed planet_view_workplace_entry to the **Better Planet View - Zone 10 Slot Fix** recommended
+- Changed planet_district_entry_width_1 to the **Better Planet View - Zone 10 Slot Fix** recommended
+- Changed planet_district_entry_width_2 to the **Better Planet View - Zone 10 Slot Fix** recommended
+- Switched planet_district_entry_width_3 to the **UI Overhaul Dynamic** recommended
+- Changed pop_category_base_collapsed_size from `x = 817` to `x = 1010`
+- Changed pop_category_base__size from `x = 817` to `x = 1010` and `y = 128` to `y = 124`
+- Changed pop_category_job__size from `x = 799` to `x = 1010` and `y = 122` to `y = 82`
+- Changed pop_category_popgroups__size from `y = 55` to `y = 35`
+- Placed pop_job_details_start_position at `x = 0, y = 0`
+- Changed preset_dopdown_entry to the **Greedy Overlord: Bleed the Vassals Dry** recommended
+- Changed relic_grid_entry to the **Hydra's More Astral Actions** recommended
+### Mods Added
+- Better Planet View
+- Better Planet View - Zone 10 Slot Fix
+- BPV - More Building Slots
+- BPV - More Building Slots - City 10 Zone
+- BPV - More Building Slots - 100 City Slots
+- [[Vanilla Basic Optimization]]
+### Mods Removed
+- [[! Reworked Advanced Ascension]]
+- [[Expanded Mods Base]]
+- [[Expanded Espionage and Diplomacy]]
+### Mods Updated
+- [[!!! Universal Resource Patch]]
+- [[Ancient Empire 2.0]]
+- [[! Better Performance & Utilities]]
+- [[! Casako's Framework & Modmenu]]
+- [[Megastructure on Planet]]
